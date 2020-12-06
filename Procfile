@@ -1,1 +1,1 @@
-web: run this thing 
+web: sh setup.sh && streamlit run App.ipyb
