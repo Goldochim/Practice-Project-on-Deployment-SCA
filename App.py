@@ -38,5 +38,6 @@ def main():
         st.success('The Titanic Survival Prediction is {}'.format(result))
     if st.button("Prediction Note"):
         st.text("0-passenger live, 1=Passenger Die")
+        
 if __name__=='__main__':
     main()
