@@ -35,7 +35,7 @@ def main():
     result=""
     if st.button("Predict"):
         result=Titanic_Prediction(ex, Age, PClass,Siblings_Spouses_Aboard, Parents_Children_Aboard, Fare)
-        st.success('The Titanic Survival Prediction is {}'.format(result))
+    st.success('The Titanic Survival Prediction is {}'.format(result))
     if st.button("Prediction Note"):
         st.text("0-passenger live, 1=Passenger Die")
         
