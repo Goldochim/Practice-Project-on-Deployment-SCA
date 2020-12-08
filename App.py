@@ -11,7 +11,7 @@ pickle_in=open('clfTitanic.pkl', 'rb')
 clf=pickle.load(pickle_in)
 
 def welcome():
-    return "Welcome All!"
+    return "Welcome All"
 
 def Titanic_Prediction(Sex, Age, PClass,Siblings_Spouses_Aboard, Parents_Children_Aboard, Fare):
     prediction=clf.predict(['Sex', 'Age', 'PClass,Siblings/Spouses Aboard', 'Parents/Children Aboard', 'Fare'])
