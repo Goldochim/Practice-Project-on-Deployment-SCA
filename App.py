@@ -6,7 +6,6 @@ Created on Sun Dec  6 22:46:48 2020
 """
 import streamlit as st
 import pickle
-import sklearn
 
 pickle_in=open('clfTitanic.pkl', 'rb')
 clf=pickle.load(pickle_in)
