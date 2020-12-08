@@ -21,7 +21,7 @@ def Titanic_Prediction(Sex, Age, PClass,Siblings_Spouses_Aboard, Parents_Childre
 def main():
     st.title("Titanic prediction App")
     html_temp="""
-    <div style="background-color:tomato; padding:10px">
+    <div style="background-color:tomato;padding:10px">
     <h2 style="color:white;text-align:center;">Streamlit Titanic App</h2>
     </div>
     """
@@ -34,9 +34,10 @@ def main():
     Fare=st.text_input("Fare", "Type here")
     result=""
     if st.button("Predict"):
-        result=Titanic_Prediction()
+        result=Titanic_Prediction(Sex, Age, PClass,Siblings_Spouses_Aboard, Parents_Children_Aboard, Fare)
     st.success('The Titanic Survival Prediction is {}'.format(result))
-    if st. button("Prediction Note"):
+    if st.button("Prediction Note"):
         st.text("0-passenger live, 1=Passenger Die")
+        
 if __name__=='__main__':
     main()
