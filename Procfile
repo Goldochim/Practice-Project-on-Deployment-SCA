@@ -1,1 +1,1 @@
-web: run this thing 
+web: App.py 
