@@ -15,7 +15,7 @@ numexpr==2.7.1
 numpy==1.19.2
 numpydoc @ file:///tmp/build/80754af9/numpydoc_1605117425582/work
 
-pandas=1.1.3
+pandas==1.1.3
 
 python-dateutil==2.8.1
 python-jsonrpc-server @ file:///tmp/build/80754af9/python-jsonrpc-server_1594397536060/work
